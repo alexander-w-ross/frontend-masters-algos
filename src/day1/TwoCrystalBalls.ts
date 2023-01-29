@@ -1,5 +1,6 @@
 // give two crystal balls that will break if dropped from high enough distance,
 // determine the exact spot in which it will break in the most optimized way
+// note: the first crystal ball breaks when it hits a true value
 // ex. array = [f,f,f,f,f,f,t,t,t,t]
 // because you would have to go down each branch. Another solution would be 
 // to jump the sqrt(N) each time. If you hit a "t" value, you jump back 
